@@ -1,0 +1,1808 @@
+[
+  {
+    "key": "account_health.shop_performance",
+    "module": "account_health",
+    "method": "GET",
+    "path": "/api/v2/account_health/shop_performance"
+  },
+  {
+    "key": "add_on_deal.add_add_on_deal",
+    "module": "add_on_deal",
+    "method": "POST",
+    "path": "/api/v2/add_on_deal/add_add_on_deal"
+  },
+  {
+    "key": "add_on_deal.get_add_on_deal_list",
+    "module": "add_on_deal",
+    "method": "GET",
+    "path": "/api/v2/add_on_deal/get_add_on_deal_list"
+  },
+  {
+    "key": "ads.check_create_gms_product_campaign_eligibility",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/check_create_gms_product_campaign_eligibility"
+  },
+  {
+    "key": "ads.create_gms_product_campaign",
+    "module": "ads",
+    "method": "POST",
+    "path": "/api/v2/ads/create_gms_product_campaign"
+  },
+  {
+    "key": "ads.create_manual_product_ads",
+    "module": "ads",
+    "method": "POST",
+    "path": "/api/v2/ads/create_manual_product_ads"
+  },
+  {
+    "key": "ads.edit_gms_item_product_campaign",
+    "module": "ads",
+    "method": "POST",
+    "path": "/api/v2/ads/edit_gms_item_product_campaign"
+  },
+  {
+    "key": "ads.edit_gms_product_campaign",
+    "module": "ads",
+    "method": "POST",
+    "path": "/api/v2/ads/edit_gms_product_campaign"
+  },
+  {
+    "key": "ads.edit_manual_product_ad_keywords",
+    "module": "ads",
+    "method": "POST",
+    "path": "/api/v2/ads/edit_manual_product_ad_keywords"
+  },
+  {
+    "key": "ads.edit_manual_product_ads",
+    "module": "ads",
+    "method": "POST",
+    "path": "/api/v2/ads/edit_manual_product_ads"
+  },
+  {
+    "key": "ads.get_ads_facil_shop_rate",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_ads_facil_shop_rate"
+  },
+  {
+    "key": "ads.get_all_cpc_ads_daily_performance",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_all_cpc_ads_daily_performance"
+  },
+  {
+    "key": "ads.get_all_cpc_ads_hourly_performance",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_all_cpc_ads_hourly_performance"
+  },
+  {
+    "key": "ads.get_create_product_ad_budget_suggestion",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_create_product_ad_budget_suggestion"
+  },
+  {
+    "key": "ads.get_gms_campaign_performance",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_gms_campaign_performance"
+  },
+  {
+    "key": "ads.get_gms_item_performance",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_gms_item_performance"
+  },
+  {
+    "key": "ads.get_product_campaign_daily_performance",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_product_campaign_daily_performance"
+  },
+  {
+    "key": "ads.get_product_campaign_hourly_performance",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_product_campaign_hourly_performance"
+  },
+  {
+    "key": "ads.get_product_level_campaign_id_list",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_product_level_campaign_id_list"
+  },
+  {
+    "key": "ads.get_product_level_campaign_setting_info",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_product_level_campaign_setting_info"
+  },
+  {
+    "key": "ads.get_product_recommended_roi_target",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_product_recommended_roi_target"
+  },
+  {
+    "key": "ads.get_recommended_item_list",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_recommended_item_list"
+  },
+  {
+    "key": "ads.get_recommended_keyword_list",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_recommended_keyword_list"
+  },
+  {
+    "key": "ads.get_shop_toggle_info",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_shop_toggle_info"
+  },
+  {
+    "key": "ads.get_total_balance",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/get_total_balance"
+  },
+  {
+    "key": "ads.list_gms_user_deleted_item",
+    "module": "ads",
+    "method": "GET",
+    "path": "/api/v2/ads/list_gms_user_deleted_item"
+  },
+  {
+    "key": "ams.add_all_products_to_open_campaign",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/add_all_products_to_open_campaign"
+  },
+  {
+    "key": "ams.batch_add_products_to_open_campaign",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/batch_add_products_to_open_campaign"
+  },
+  {
+    "key": "ams.batch_edit_products_open_campaign_setting",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/batch_edit_products_open_campaign_setting"
+  },
+  {
+    "key": "ams.batch_get_products_suggested_rate",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/batch_get_products_suggested_rate"
+  },
+  {
+    "key": "ams.batch_remove_products_open_campaign_setting",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/batch_remove_products_open_campaign_setting"
+  },
+  {
+    "key": "ams.create_new_targeted_campaign",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/create_new_targeted_campaign"
+  },
+  {
+    "key": "ams.edit_affiliate_list_of_targeted_campaign",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/edit_affiliate_list_of_targeted_campaign"
+  },
+  {
+    "key": "ams.edit_all_products_open_campaign_setting",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/edit_all_products_open_campaign_setting"
+  },
+  {
+    "key": "ams.edit_product_list_of_targeted_campaign",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/edit_product_list_of_targeted_campaign"
+  },
+  {
+    "key": "ams.get_affiliate_performance",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_affiliate_performance"
+  },
+  {
+    "key": "ams.get_auto_add_new_product_toggle_status",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_auto_add_new_product_toggle_status"
+  },
+  {
+    "key": "ams.get_campaign_key_metrics_performance",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_campaign_key_metrics_performance"
+  },
+  {
+    "key": "ams.get_content_performance",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_content_performance"
+  },
+  {
+    "key": "ams.get_conversion_report",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_conversion_report"
+  },
+  {
+    "key": "ams.get_managed_affiliate_list",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_managed_affiliate_list"
+  },
+  {
+    "key": "ams.get_open_campaign_added_product",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_open_campaign_added_product"
+  },
+  {
+    "key": "ams.get_open_campaign_batch_task_result",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_open_campaign_batch_task_result"
+  },
+  {
+    "key": "ams.get_open_campaign_not_added_product",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_open_campaign_not_added_product"
+  },
+  {
+    "key": "ams.get_open_campaign_performance",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_open_campaign_performance"
+  },
+  {
+    "key": "ams.get_optimization_suggestion_product",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_optimization_suggestion_product"
+  },
+  {
+    "key": "ams.get_performance_data_update_time",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_performance_data_update_time"
+  },
+  {
+    "key": "ams.get_product_performance",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_product_performance"
+  },
+  {
+    "key": "ams.get_recommended_affiliate_list",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_recommended_affiliate_list"
+  },
+  {
+    "key": "ams.get_shop_performance",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_shop_performance"
+  },
+  {
+    "key": "ams.get_shop_suggested_rate",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_shop_suggested_rate"
+  },
+  {
+    "key": "ams.get_targeted_campaign_addable_product_list",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_targeted_campaign_addable_product_list"
+  },
+  {
+    "key": "ams.get_targeted_campaign_list",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_targeted_campaign_list"
+  },
+  {
+    "key": "ams.get_targeted_campaign_performance",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_targeted_campaign_performance"
+  },
+  {
+    "key": "ams.get_targeted_campaign_settings",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_targeted_campaign_settings"
+  },
+  {
+    "key": "ams.get_validation_list",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_validation_list"
+  },
+  {
+    "key": "ams.get_validation_report",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/get_validation_report"
+  },
+  {
+    "key": "ams.query_affiliate_list",
+    "module": "ams",
+    "method": "GET",
+    "path": "/api/v2/ams/query_affiliate_list"
+  },
+  {
+    "key": "ams.remove_all_products_open_campaign_setting",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/remove_all_products_open_campaign_setting"
+  },
+  {
+    "key": "ams.terminate_targeted_campaign",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/terminate_targeted_campaign"
+  },
+  {
+    "key": "ams.update_auto_add_new_product_setting",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/update_auto_add_new_product_setting"
+  },
+  {
+    "key": "ams.update_basic_info_of_targeted_campaign",
+    "module": "ams",
+    "method": "POST",
+    "path": "/api/v2/ams/update_basic_info_of_targeted_campaign"
+  },
+  {
+    "key": "auth.get_access_token",
+    "module": "auth",
+    "method": "POST",
+    "path": "/api/v2/auth/access_token/get"
+  },
+  {
+    "key": "auth.refresh_access_token",
+    "module": "auth",
+    "method": "POST",
+    "path": "/api/v2/auth/access_token/get"
+  },
+  {
+    "key": "bundle_deal.add_bundle_deal",
+    "module": "bundle_deal",
+    "method": "POST",
+    "path": "/api/v2/bundle_deal/add_bundle_deal"
+  },
+  {
+    "key": "bundle_deal.get_bundle_deal_list",
+    "module": "bundle_deal",
+    "method": "GET",
+    "path": "/api/v2/bundle_deal/get_bundle_deal_list"
+  },
+  {
+    "key": "bundle_deal.update_bundle_deal",
+    "module": "bundle_deal",
+    "method": "POST",
+    "path": "/api/v2/bundle_deal/update_bundle_deal"
+  },
+  {
+    "key": "discount.add_discount",
+    "module": "discount",
+    "method": "POST",
+    "path": "/api/v2/discount/add_discount"
+  },
+  {
+    "key": "discount.get_discount_list",
+    "module": "discount",
+    "method": "GET",
+    "path": "/api/v2/discount/get_discount_list"
+  },
+  {
+    "key": "discount.add_discount_item",
+    "module": "discount",
+    "method": "POST",
+    "path": "/api/v2/discount/add_discount_item"
+  },
+  {
+    "key": "discount.delete_discount",
+    "module": "discount",
+    "method": "POST",
+    "path": "/api/v2/discount/delete_discount"
+  },
+  {
+    "key": "discount.delete_discount_item",
+    "module": "discount",
+    "method": "POST",
+    "path": "/api/v2/discount/delete_discount_item"
+  },
+  {
+    "key": "discount.get_discount",
+    "module": "discount",
+    "method": "GET",
+    "path": "/api/v2/discount/get_discount"
+  },
+  {
+    "key": "discount.update_discount",
+    "module": "discount",
+    "method": "POST",
+    "path": "/api/v2/discount/update_discount"
+  },
+  {
+    "key": "discount.update_discount_item",
+    "module": "discount",
+    "method": "POST",
+    "path": "/api/v2/discount/update_discount_item"
+  },
+  {
+    "key": "discount.end_discount",
+    "module": "discount",
+    "method": "POST",
+    "path": "/api/v2/discount/end_discount"
+  },
+  {
+    "key": "discount.get_sip_discounts",
+    "module": "discount",
+    "method": "GET",
+    "path": "/api/v2/discount/get_sip_discounts"
+  },
+  {
+    "key": "discount.set_sip_discount",
+    "module": "discount",
+    "method": "POST",
+    "path": "/api/v2/discount/set_sip_discount"
+  },
+  {
+    "key": "discount.delete_sip_discount",
+    "module": "discount",
+    "method": "POST",
+    "path": "/api/v2/discount/delete_sip_discount"
+  },
+  {
+    "key": "follow_prize.add_follow_prize",
+    "module": "follow_prize",
+    "method": "POST",
+    "path": "/api/v2/follow_prize/add_follow_prize"
+  },
+  {
+    "key": "follow_prize.get_follow_prize_detail",
+    "module": "follow_prize",
+    "method": "GET",
+    "path": "/api/v2/follow_prize/get_follow_prize_detail"
+  },
+  {
+    "key": "global_product.add_global_item",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/add_global_item"
+  },
+  {
+    "key": "global_product.add_global_model",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/add_global_model"
+  },
+  {
+    "key": "global_product.category_recommend",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/category_recommend"
+  },
+  {
+    "key": "global_product.create_publish_task",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/create_publish_task"
+  },
+  {
+    "key": "global_product.delete_global_item",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/delete_global_item"
+  },
+  {
+    "key": "global_product.delete_global_model",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/delete_global_model"
+  },
+  {
+    "key": "global_product.get_attribute_tree",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_attribute_tree"
+  },
+  {
+    "key": "global_product.get_brand_list",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_brand_list"
+  },
+  {
+    "key": "global_product.get_category",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_category"
+  },
+  {
+    "key": "global_product.get_global_item_id",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_global_item_id"
+  },
+  {
+    "key": "global_product.get_global_item_info",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_global_item_info"
+  },
+  {
+    "key": "global_product.get_global_item_limit",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_global_item_limit"
+  },
+  {
+    "key": "global_product.get_global_item_list",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_global_item_list"
+  },
+  {
+    "key": "global_product.get_global_model_list",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_global_model_list"
+  },
+  {
+    "key": "global_product.get_local_adjustment_rate",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_local_adjustment_rate"
+  },
+  {
+    "key": "global_product.get_publish_task_result",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_publish_task_result"
+  },
+  {
+    "key": "global_product.get_publishable_shop",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_publishable_shop"
+  },
+  {
+    "key": "global_product.get_published_list",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_published_list"
+  },
+  {
+    "key": "global_product.get_recommend_attribute",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_recommend_attribute"
+  },
+  {
+    "key": "global_product.get_shop_publishable_status",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_shop_publishable_status"
+  },
+  {
+    "key": "global_product.get_size_chart_detail",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_size_chart_detail"
+  },
+  {
+    "key": "global_product.get_size_chart_list",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_size_chart_list"
+  },
+  {
+    "key": "global_product.get_variations",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/get_variations"
+  },
+  {
+    "key": "global_product.init_tier_variation",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/init_tier_variation"
+  },
+  {
+    "key": "global_product.search_global_attribute_value_list",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/search_global_attribute_value_list"
+  },
+  {
+    "key": "global_product.set_sync_field",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/set_sync_field"
+  },
+  {
+    "key": "global_product.support_size_chart",
+    "module": "global_product",
+    "method": "GET",
+    "path": "/api/v2/global_product/support_size_chart"
+  },
+  {
+    "key": "global_product.update_global_item",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/update_global_item"
+  },
+  {
+    "key": "global_product.update_global_model",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/update_global_model"
+  },
+  {
+    "key": "global_product.update_local_adjustment_rate",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/update_local_adjustment_rate"
+  },
+  {
+    "key": "global_product.update_price",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/update_price"
+  },
+  {
+    "key": "global_product.update_size_chart",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/update_size_chart"
+  },
+  {
+    "key": "global_product.update_stock",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/update_stock"
+  },
+  {
+    "key": "global_product.update_tier_variation",
+    "module": "global_product",
+    "method": "POST",
+    "path": "/api/v2/global_product/update_tier_variation"
+  },
+  {
+    "key": "livestream.create_session",
+    "module": "livestream",
+    "method": "POST",
+    "path": "/api/v2/livestream/create_session"
+  },
+  {
+    "key": "livestream.start_session",
+    "module": "livestream",
+    "method": "POST",
+    "path": "/api/v2/livestream/start_session"
+  },
+  {
+    "key": "logistics.batch_ship_order",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/batch_ship_order"
+  },
+  {
+    "key": "logistics.batch_update_tpf_warehouse_tracking_status",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/batch_update_tpf_warehouse_tracking_status"
+  },
+  {
+    "key": "logistics.check_polygon_update_status",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/check_polygon_update_status"
+  },
+  {
+    "key": "logistics.create_booking_shipping_document",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/create_booking_shipping_document"
+  },
+  {
+    "key": "logistics.create_shipping_document",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/create_shipping_document"
+  },
+  {
+    "key": "logistics.create_shipping_document_job",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/create_shipping_document_job"
+  },
+  {
+    "key": "logistics.delete_address",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/delete_address"
+  },
+  {
+    "key": "logistics.delete_special_operating_hour",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/delete_special_operating_hour"
+  },
+  {
+    "key": "logistics.download_booking_shipping_document",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/download_booking_shipping_document"
+  },
+  {
+    "key": "logistics.download_shipping_document",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/download_shipping_document"
+  },
+  {
+    "key": "logistics.download_shipping_document_job",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/download_shipping_document_job"
+  },
+  {
+    "key": "logistics.download_to_label",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/download_to_label"
+  },
+  {
+    "key": "logistics.get_address_list",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_address_list"
+  },
+  {
+    "key": "logistics.get_booking_shipping_document_data_info",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_booking_shipping_document_data_info"
+  },
+  {
+    "key": "logistics.get_booking_shipping_document_parameter",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_booking_shipping_document_parameter"
+  },
+  {
+    "key": "logistics.get_booking_shipping_document_result",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_booking_shipping_document_result"
+  },
+  {
+    "key": "logistics.get_booking_shipping_parameter",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_booking_shipping_parameter"
+  },
+  {
+    "key": "logistics.get_booking_tracking_info",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_booking_tracking_info"
+  },
+  {
+    "key": "logistics.get_booking_tracking_number",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_booking_tracking_number"
+  },
+  {
+    "key": "logistics.get_channel_list",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_channel_list"
+  },
+  {
+    "key": "logistics.get_mart_packaging_info",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_mart_packaging_info"
+  },
+  {
+    "key": "logistics.get_mass_shipping_parameter",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_mass_shipping_parameter"
+  },
+  {
+    "key": "logistics.get_mass_tracking_number",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_mass_tracking_number"
+  },
+  {
+    "key": "logistics.get_operating_hour_restrictions",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_operating_hour_restrictions"
+  },
+  {
+    "key": "logistics.get_operating_hours",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_operating_hours"
+  },
+  {
+    "key": "logistics.get_shipping_document_data_info",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_shipping_document_data_info"
+  },
+  {
+    "key": "logistics.get_shipping_document_job_status",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_shipping_document_job_status"
+  },
+  {
+    "key": "logistics.get_shipping_document_parameter",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_shipping_document_parameter"
+  },
+  {
+    "key": "logistics.get_shipping_document_result",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_shipping_document_result"
+  },
+  {
+    "key": "logistics.get_shipping_parameter",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_shipping_parameter"
+  },
+  {
+    "key": "logistics.get_tracking_info",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_tracking_info"
+  },
+  {
+    "key": "logistics.get_tracking_number",
+    "module": "logistics",
+    "method": "GET",
+    "path": "/api/v2/logistics/get_tracking_number"
+  },
+  {
+    "key": "logistics.mass_ship_order",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/mass_ship_order"
+  },
+  {
+    "key": "logistics.set_address_config",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/set_address_config"
+  },
+  {
+    "key": "logistics.set_mart_packaging_info",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/set_mart_packaging_info"
+  },
+  {
+    "key": "logistics.ship_booking",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/ship_booking"
+  },
+  {
+    "key": "logistics.ship_order",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/ship_order"
+  },
+  {
+    "key": "logistics.update_address",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/update_address"
+  },
+  {
+    "key": "logistics.update_channel",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/update_channel"
+  },
+  {
+    "key": "logistics.update_operating_hours",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/update_operating_hours"
+  },
+  {
+    "key": "logistics.update_self_collection_order_logistics",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/update_self_collection_order_logistics"
+  },
+  {
+    "key": "logistics.update_shipping_order",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/update_shipping_order"
+  },
+  {
+    "key": "logistics.update_tracking_status",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/update_tracking_status"
+  },
+  {
+    "key": "logistics.upload_serviceable_polygon",
+    "module": "logistics",
+    "method": "POST",
+    "path": "/api/v2/logistics/upload_serviceable_polygon"
+  },
+  {
+    "key": "media_space.cancel_video_upload",
+    "module": "media_space",
+    "method": "POST",
+    "path": "/api/v2/media_space/cancel_video_upload"
+  },
+  {
+    "key": "media_space.complete_video_upload",
+    "module": "media_space",
+    "method": "POST",
+    "path": "/api/v2/media_space/complete_video_upload"
+  },
+  {
+    "key": "media_space.get_video_upload_result",
+    "module": "media_space",
+    "method": "GET",
+    "path": "/api/v2/media_space/get_video_upload_result"
+  },
+  {
+    "key": "media_space.init_video_upload",
+    "module": "media_space",
+    "method": "POST",
+    "path": "/api/v2/media_space/init_video_upload"
+  },
+  {
+    "key": "media_space.upload_image",
+    "module": "media_space",
+    "method": "POST",
+    "path": "/api/v2/media_space/upload_image"
+  },
+  {
+    "key": "media_space.upload_video_part",
+    "module": "media_space",
+    "method": "POST",
+    "path": "/api/v2/media_space/upload_video_part"
+  },
+  {
+    "key": "merchant.get_merchant_info",
+    "module": "merchant",
+    "method": "GET",
+    "path": "/api/v2/merchant/get_merchant_info"
+  },
+  {
+    "key": "merchant.get_merchant_prepaid_account_list",
+    "module": "merchant",
+    "method": "GET",
+    "path": "/api/v2/merchant/get_merchant_prepaid_account_list"
+  },
+  {
+    "key": "merchant.get_merchant_warehouse_list",
+    "module": "merchant",
+    "method": "GET",
+    "path": "/api/v2/merchant/get_merchant_warehouse_list"
+  },
+  {
+    "key": "merchant.get_merchant_warehouse_location_list",
+    "module": "merchant",
+    "method": "GET",
+    "path": "/api/v2/merchant/get_merchant_warehouse_location_list"
+  },
+  {
+    "key": "merchant.get_shop_list_by_merchant",
+    "module": "merchant",
+    "method": "GET",
+    "path": "/api/v2/merchant/get_shop_list_by_merchant"
+  },
+  {
+    "key": "merchant.get_warehouse_eligible_shop_list",
+    "module": "merchant",
+    "method": "GET",
+    "path": "/api/v2/merchant/get_warehouse_eligible_shop_list"
+  },
+  {
+    "key": "order.cancel_order",
+    "module": "order",
+    "method": "POST",
+    "path": "/api/v2/order/cancel_order"
+  },
+  {
+    "key": "order.download_fbs_invoices",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/download_fbs_invoices"
+  },
+  {
+    "key": "order.download_invoice_doc",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/download_invoice_doc"
+  },
+  {
+    "key": "order.generate_fbs_invoices",
+    "module": "order",
+    "method": "POST",
+    "path": "/api/v2/order/generate_fbs_invoices"
+  },
+  {
+    "key": "order.get_booking_detail",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_booking_detail"
+  },
+  {
+    "key": "order.get_booking_list",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_booking_list"
+  },
+  {
+    "key": "order.get_buyer_invoice_info",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_buyer_invoice_info"
+  },
+  {
+    "key": "order.get_fbs_invoices_result",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_fbs_invoices_result"
+  },
+  {
+    "key": "order.get_order_detail",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_order_detail"
+  },
+  {
+    "key": "order.get_order_list",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_order_list"
+  },
+  {
+    "key": "order.get_package_detail",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_package_detail"
+  },
+  {
+    "key": "order.get_pending_buyer_invoice_order_list",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_pending_buyer_invoice_order_list"
+  },
+  {
+    "key": "order.get_shipment_list",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_shipment_list"
+  },
+  {
+    "key": "order.get_warehouse_filter_config",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/get_warehouse_filter_config"
+  },
+  {
+    "key": "order.handle_buyer_cancellation",
+    "module": "order",
+    "method": "POST",
+    "path": "/api/v2/order/handle_buyer_cancellation"
+  },
+  {
+    "key": "order.handle_prescription_check",
+    "module": "order",
+    "method": "POST",
+    "path": "/api/v2/order/handle_prescription_check"
+  },
+  {
+    "key": "order.search_package_list",
+    "module": "order",
+    "method": "GET",
+    "path": "/api/v2/order/search_package_list"
+  },
+  {
+    "key": "order.set_note",
+    "module": "order",
+    "method": "POST",
+    "path": "/api/v2/order/set_note"
+  },
+  {
+    "key": "order.split_order",
+    "module": "order",
+    "method": "POST",
+    "path": "/api/v2/order/split_order"
+  },
+  {
+    "key": "order.unsplit_order",
+    "module": "order",
+    "method": "POST",
+    "path": "/api/v2/order/unsplit_order"
+  },
+  {
+    "key": "order.upload_invoice_doc",
+    "module": "order",
+    "method": "POST",
+    "path": "/api/v2/order/upload_invoice_doc"
+  },
+  {
+    "key": "product.add_item",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/add_item"
+  },
+  {
+    "key": "product.add_kit_item",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/add_kit_item"
+  },
+  {
+    "key": "product.add_model",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/add_model"
+  },
+  {
+    "key": "product.add_ssp_item",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/add_ssp_item"
+  },
+  {
+    "key": "product.boost_item",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/boost_item"
+  },
+  {
+    "key": "product.category_recommend",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/category_recommend"
+  },
+  {
+    "key": "product.delete_item",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/delete_item"
+  },
+  {
+    "key": "product.delete_model",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/delete_model"
+  },
+  {
+    "key": "product.generate_kit_image",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/generate_kit_image"
+  },
+  {
+    "key": "product.get_aitem_by_pitem_id",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_aitem_by_pitem_id"
+  },
+  {
+    "key": "product.get_all_vehicle_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_all_vehicle_list"
+  },
+  {
+    "key": "product.get_attribute_tree",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_attribute_tree"
+  },
+  {
+    "key": "product.get_boosted_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_boosted_list"
+  },
+  {
+    "key": "product.get_brand_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_brand_list"
+  },
+  {
+    "key": "product.get_category",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_category"
+  },
+  {
+    "key": "product.get_comment",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_comment"
+  },
+  {
+    "key": "product.get_direct_item_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_direct_item_list"
+  },
+  {
+    "key": "product.get_direct_shop_recommended_price",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_direct_shop_recommended_price"
+  },
+  {
+    "key": "product.get_item_base_info",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_item_base_info"
+  },
+  {
+    "key": "product.get_item_content_diagnosis_result",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_item_content_diagnosis_result"
+  },
+  {
+    "key": "product.get_item_extra_info",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_item_extra_info"
+  },
+  {
+    "key": "product.get_item_limit",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_item_limit"
+  },
+  {
+    "key": "product.get_item_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_item_list"
+  },
+  {
+    "key": "product.get_item_list_by_content_diagnosis",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_item_list_by_content_diagnosis"
+  },
+  {
+    "key": "product.get_item_promotion",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_item_promotion"
+  },
+  {
+    "key": "product.get_item_violation_info",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_item_violation_info"
+  },
+  {
+    "key": "product.get_kit_item_info",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_kit_item_info"
+  },
+  {
+    "key": "product.get_kit_item_limit",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_kit_item_limit"
+  },
+  {
+    "key": "product.get_main_item_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_main_item_list"
+  },
+  {
+    "key": "product.get_mart_item_mapping_by_id",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_mart_item_mapping_by_id"
+  },
+  {
+    "key": "product.get_model_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_model_list"
+  },
+  {
+    "key": "product.get_product_certification_rule",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_product_certification_rule"
+  },
+  {
+    "key": "product.get_recommend_attribute",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_recommend_attribute"
+  },
+  {
+    "key": "product.get_size_chart_detail",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_size_chart_detail"
+  },
+  {
+    "key": "product.get_size_chart_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_size_chart_list"
+  },
+  {
+    "key": "product.get_ssp_info",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_ssp_info"
+  },
+  {
+    "key": "product.get_ssp_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_ssp_list"
+  },
+  {
+    "key": "product.get_variations",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_variations"
+  },
+  {
+    "key": "product.get_vehicle_list_by_compatibility_detail",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_vehicle_list_by_compatibility_detail"
+  },
+  {
+    "key": "product.get_weight_recommendation",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/get_weight_recommendation"
+  },
+  {
+    "key": "product.init_tier_variation",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/init_tier_variation"
+  },
+  {
+    "key": "product.link_ssp",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/link_ssp"
+  },
+  {
+    "key": "product.publish_item_to_outlet_shop",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/publish_item_to_outlet_shop"
+  },
+  {
+    "key": "product.register_brand",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/register_brand"
+  },
+  {
+    "key": "product.reply_comment",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/reply_comment"
+  },
+  {
+    "key": "product.search_attribute_value_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/search_attribute_value_list"
+  },
+  {
+    "key": "product.search_item",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/search_item"
+  },
+  {
+    "key": "product.search_unpackaged_model_list",
+    "module": "product",
+    "method": "GET",
+    "path": "/api/v2/product/search_unpackaged_model_list"
+  },
+  {
+    "key": "product.unlink_ssp",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/unlink_ssp"
+  },
+  {
+    "key": "product.unlist_item",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/unlist_item"
+  },
+  {
+    "key": "product.update_item",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/update_item"
+  },
+  {
+    "key": "product.update_kit_item",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/update_kit_item"
+  },
+  {
+    "key": "product.update_model",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/update_model"
+  },
+  {
+    "key": "product.update_price",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/update_price"
+  },
+  {
+    "key": "product.update_sip_item_price",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/update_sip_item_price"
+  },
+  {
+    "key": "product.update_stock",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/update_stock"
+  },
+  {
+    "key": "product.update_tier_variation",
+    "module": "product",
+    "method": "POST",
+    "path": "/api/v2/product/update_tier_variation"
+  },
+  {
+    "key": "public.get_access_token",
+    "module": "public",
+    "method": "POST",
+    "path": "/api/v2/public/get_access_token"
+  },
+  {
+    "key": "public.refresh_access_token",
+    "module": "public",
+    "method": "POST",
+    "path": "/api/v2/public/refresh_access_token"
+  },
+  {
+    "key": "push.set_app_push_config",
+    "module": "push",
+    "method": "POST",
+    "path": "/api/v2/push/set_app_push_config"
+  },
+  {
+    "key": "returns.confirm",
+    "module": "returns",
+    "method": "POST",
+    "path": "/api/v2/returns/confirm"
+  },
+  {
+    "key": "returns.dispute",
+    "module": "returns",
+    "method": "POST",
+    "path": "/api/v2/returns/dispute"
+  },
+  {
+    "key": "returns.get_return_list",
+    "module": "returns",
+    "method": "GET",
+    "path": "/api/v2/returns/get_return_list"
+  },
+  {
+    "key": "sbs.get_current_inventory",
+    "module": "sbs",
+    "method": "GET",
+    "path": "/api/v2/sbs/get_current_inventory"
+  },
+  {
+    "key": "sbs.get_stock_aging",
+    "module": "sbs",
+    "method": "GET",
+    "path": "/api/v2/sbs/get_stock_aging"
+  },
+  {
+    "key": "shop.get_authorised_reseller_brand",
+    "module": "shop",
+    "method": "GET",
+    "path": "/api/v2/shop/get_authorised_reseller_brand"
+  },
+  {
+    "key": "shop.get_br_shop_onboarding_info",
+    "module": "shop",
+    "method": "GET",
+    "path": "/api/v2/shop/get_br_shop_onboarding_info"
+  },
+  {
+    "key": "shop.get_profile",
+    "module": "shop",
+    "method": "GET",
+    "path": "/api/v2/shop/get_profile"
+  },
+  {
+    "key": "shop.get_shop_category_list",
+    "module": "shop",
+    "method": "GET",
+    "path": "/api/v2/shop/get_shop_category_list"
+  },
+  {
+    "key": "shop.get_shop_holiday_mode",
+    "module": "shop",
+    "method": "GET",
+    "path": "/api/v2/shop/get_shop_holiday_mode"
+  },
+  {
+    "key": "shop.get_shop_info",
+    "module": "shop",
+    "method": "GET",
+    "path": "/api/v2/shop/get_shop_info"
+  },
+  {
+    "key": "shop.get_shop_notification",
+    "module": "shop",
+    "method": "GET",
+    "path": "/api/v2/shop/get_shop_notification"
+  },
+  {
+    "key": "shop.get_warehouse_detail",
+    "module": "shop",
+    "method": "GET",
+    "path": "/api/v2/shop/get_warehouse_detail"
+  },
+  {
+    "key": "shop.set_shop_holiday_mode",
+    "module": "shop",
+    "method": "POST",
+    "path": "/api/v2/shop/set_shop_holiday_mode"
+  },
+  {
+    "key": "shop.update_profile",
+    "module": "shop",
+    "method": "POST",
+    "path": "/api/v2/shop/update_profile"
+  },
+  {
+    "key": "shop_flash_sale.create_shop_flash_sale",
+    "module": "shop_flash_sale",
+    "method": "POST",
+    "path": "/api/v2/shop_flash_sale/create_shop_flash_sale"
+  },
+  {
+    "key": "shop_flash_sale.get_shop_flash_sale_list",
+    "module": "shop_flash_sale",
+    "method": "GET",
+    "path": "/api/v2/shop_flash_sale/get_shop_flash_sale_list"
+  },
+  {
+    "key": "shop_flash_sale.get_time_slot_id",
+    "module": "shop_flash_sale",
+    "method": "GET",
+    "path": "/api/v2/shop_flash_sale/get_time_slot_id"
+  },
+  {
+    "key": "shop_flash_sale.get_item_criteria",
+    "module": "shop_flash_sale",
+    "method": "GET",
+    "path": "/api/v2/shop_flash_sale/get_item_criteria"
+  },
+  {
+    "key": "shop_flash_sale.add_shop_flash_sale_items",
+    "module": "shop_flash_sale",
+    "method": "POST",
+    "path": "/api/v2/shop_flash_sale/add_shop_flash_sale_items"
+  },
+  {
+    "key": "shop_flash_sale.get_shop_flash_sale",
+    "module": "shop_flash_sale",
+    "method": "GET",
+    "path": "/api/v2/shop_flash_sale/get_shop_flash_sale"
+  },
+  {
+    "key": "shop_flash_sale.get_shop_flash_sale_items",
+    "module": "shop_flash_sale",
+    "method": "GET",
+    "path": "/api/v2/shop_flash_sale/get_shop_flash_sale_items"
+  },
+  {
+    "key": "shop_flash_sale.update_shop_flash_sale",
+    "module": "shop_flash_sale",
+    "method": "POST",
+    "path": "/api/v2/shop_flash_sale/update_shop_flash_sale"
+  },
+  {
+    "key": "shop_flash_sale.update_shop_flash_sale_items",
+    "module": "shop_flash_sale",
+    "method": "POST",
+    "path": "/api/v2/shop_flash_sale/update_shop_flash_sale_items"
+  },
+  {
+    "key": "shop_flash_sale.delete_shop_flash_sale",
+    "module": "shop_flash_sale",
+    "method": "POST",
+    "path": "/api/v2/shop_flash_sale/delete_shop_flash_sale"
+  },
+  {
+    "key": "shop_flash_sale.delete_shop_flash_sale_items",
+    "module": "shop_flash_sale",
+    "method": "POST",
+    "path": "/api/v2/shop_flash_sale/delete_shop_flash_sale_items"
+  },
+  {
+    "key": "video.delete_video",
+    "module": "video",
+    "method": "POST",
+    "path": "/api/v2/video/delete_video"
+  },
+  {
+    "key": "video.edit_video_info",
+    "module": "video",
+    "method": "POST",
+    "path": "/api/v2/video/edit_video_info"
+  },
+  {
+    "key": "video.get_cover_list",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_cover_list"
+  },
+  {
+    "key": "video.get_metric_trend",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_metric_trend"
+  },
+  {
+    "key": "video.get_overview_performance",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_overview_performance"
+  },
+  {
+    "key": "video.get_prodcut_performance_list",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_prodcut_performance_list"
+  },
+  {
+    "key": "video.get_user_demographics",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_user_demographics"
+  },
+  {
+    "key": "video.get_video_detail",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_video_detail"
+  },
+  {
+    "key": "video.get_video_detail_audience_distribution",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_video_detail_audience_distribution"
+  },
+  {
+    "key": "video.get_video_detail_metric_trend",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_video_detail_metric_trend"
+  },
+  {
+    "key": "video.get_video_detail_performance",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_video_detail_performance"
+  },
+  {
+    "key": "video.get_video_detail_product_performance",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_video_detail_product_performance"
+  },
+  {
+    "key": "video.get_video_list",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_video_list"
+  },
+  {
+    "key": "video.get_video_performance_list",
+    "module": "video",
+    "method": "GET",
+    "path": "/api/v2/video/get_video_performance_list"
+  },
+  {
+    "key": "video.post_video",
+    "module": "video",
+    "method": "POST",
+    "path": "/api/v2/video/post_video"
+  },
+  {
+    "key": "voucher.add_voucher",
+    "module": "voucher",
+    "method": "POST",
+    "path": "/api/v2/voucher/add_voucher"
+  },
+  {
+    "key": "voucher.get_voucher_list",
+    "module": "voucher",
+    "method": "GET",
+    "path": "/api/v2/voucher/get_voucher_list"
+  },
+  {
+    "key": "voucher.get_voucher",
+    "module": "voucher",
+    "method": "GET",
+    "path": "/api/v2/voucher/get_voucher"
+  },
+  {
+    "key": "voucher.update_voucher",
+    "module": "voucher",
+    "method": "POST",
+    "path": "/api/v2/voucher/update_voucher"
+  },
+  {
+    "key": "voucher.delete_voucher",
+    "module": "voucher",
+    "method": "POST",
+    "path": "/api/v2/voucher/delete_voucher"
+  },
+  {
+    "key": "voucher.end_voucher",
+    "module": "voucher",
+    "method": "POST",
+    "path": "/api/v2/voucher/end_voucher"
+  }
+]

@@ -1,0 +1,7 @@
+fastmcp
+pydantic
+pydantic-settings
+httpx
+uvicorn
+gspread
+google-auth

@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: shopee_mcp_app
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs

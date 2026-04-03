@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "shopee-mcp-server",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["app/main.py"],
+      "port": 8000
+    },
+    {
+      "name": "shopee-mcp-dev",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["scripts/run_dev.py"],
+      "port": 8000
+    }
+  ]
+}
